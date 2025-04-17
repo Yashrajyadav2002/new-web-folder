@@ -1,0 +1,9 @@
+.layout_container__GDOMj {
+    max-width: 644px;
+    width: 100%;
+    min-width: 80vh;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    touch-action: manipulation;
+}
