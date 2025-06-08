@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Construction Material Estimator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🏗 Construction Material Estimator</h1>
+    
+    <form id="estimator-form">
+      <label>Total Built-up Area (ft²)</label>
+      <input type="number" id="area" required />
+
+      <label>Number of Floors</label>
+      <input type="number" id="floors" required />
+
+      <label>Wall Thickness (inches)</label>
+      <select id="wall">
+        <option value="4.5">4.5"</option>
+        <option value="9">9"</option>
+      </select>
+
+      <label>Floor Height (feet)</label>
+      <input type="number" id="height" required />
+
+      <button type="submit">Estimate Materials</button>
+    </form>
+
+    <div id="results">
+      <h2>📊 Estimated Materials:</h2>
+      <ul>
+        <li><strong>Bricks:</strong> <span id="bricks"></span></li>
+        <li><strong>Cement (bags):</strong> <span id="cement"></span></li>
+        <li><strong>Sand (cft):</strong> <span id="sand"></span></li>
+        <li><strong>Steel (kg):</strong> <span id="steel"></span></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
