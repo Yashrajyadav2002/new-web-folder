@@ -4,13 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Login file </title>
+    <link rel="stylesheet" href="loginpage.css">
 </head>
 <body>
     <form>
-    Enter Name <input type="text" id="loginname"> <br> <br>
-    Enter Password <input type="text" id="loginpass"> <br> <br>
+        <div class="box">
+            <div class="login">
+                <div class="loginbx">
+                    <h2>
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        Login
+                        <i class="fa-sloid fa-heart"></i>
+    
+                    </h2>
+                      <input type="text" id="loginname" placeholder="Enter user name"> <br> 
+                      <input type="text" id="loginpass" placeholder="Enter login Password"> <br> 
 
-    <input type="submit" value="Login" onclick="return login()">
+                     <input type="submit" value="Login" class="btn" onclick="return login()">
+                     <div class="group">
+                       <a href="#">Forget Password</a>
+                       <a href="#">Sign up</a>
+                     </div>
+
+                </div>
+            </div>
+        </div>
+   
 
     </form>
 
