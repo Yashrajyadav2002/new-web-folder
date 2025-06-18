@@ -16,48 +16,48 @@ let signuppage=()=>{
     if(name==""){
         errorname.innerHTML="plese enter your Name here";
         document.querySelector("#name").focus()
-        errorname.style.color="red";
+        errorname.style.color="white";
         return false;
     }
 
     else if(email==""){
         erroremail.innerHTML = "please enter your email here"
         document.querySelector("#email").focus()
-        erroremail.style.color = "red"
+        erroremail.style.color = "white"
         return false;
     }
     
     else if(!(email.includes("@") && email.includes(".com"))){
           erroremail.innerHTML="please enter a valid email"
           document.querySelector("#email").focus()
-          erroremail.style.color="red"
+          erroremail.style.color="white"
         return false;
     }
     else if (num==""){
         errornumber.innerHTML = "please enter your number here"
         document.querySelector("#num").focus()
-        errornumber.style.color = "red"
+        errornumber.style.color = "white"
         return false;
     }
 
     else if(num.length!==10){
         errornumber.innerHTML="Plese enter 10 digits numbers";
         document.querySelector("#num").focus()
-        errornumber.style.color="red";
+        errornumber.style.color="white";
         return false;
     }
 
     else if(isNaN(num)){
         errornumber.innerHTML="please enter number only";
         document.querySelector("#num").focus()
-        errornumber.stye.color="red";
+        errornumber.stye.color="white";
         return false;
     }
 
     else if (pass==""){
         errorpass.innerHTML = "please enter your password here"
         document.querySelector("#pass").focus()
-        errorpass.style.color = "red"
+        errorpass.style.color = "white"
         return false ;
     }
     
@@ -65,7 +65,7 @@ let signuppage=()=>{
     else if (pass!=copass){
         errorcopass.innerHTML="please enter same password"
         document.querySelector("#copass").value="";
-        errorcopass.style.color = "red"
+        errorcopass.style.color = "white"
         return false;
     }
 

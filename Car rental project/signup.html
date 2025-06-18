@@ -4,29 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Signup file </title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
-<body>
-    <form align="center">
-        <p id="errorname"></p>
-      Enter name  <input type="text" id="name" placeholder=" Enter your valid name "> <br> <br>
+<body id="body">
+  <div class="main">
+
+   <div class="second-container">
+  
+    
+    <div class="image-container" ><img src="will-cqsHcu13sgo-unsplash.jpg" alt=""></div>
+
+      
+     <div class="container">
+
+  
+        <form align="center" class="form">
+
+          <i class="fa-solid fa-user-plus"></i>
+          <h2>Welcome </h2>
+          <p id="errorname"></p>
+          <input type="text" id="name" placeholder=" Enter your valid name "> <br> <br>
         
-      <p id="erroremail"></p>
-      Enter Email  <input type="text" id="email" placeholder=" Enter your valid email "> <br> <br>
+          <p id="erroremail"></p>
+           <input type="text" id="email" placeholder=" Enter your valid email "> <br> <br>
 
-        <p id="errornumber"></p>
-      Enter number  <input type="text" id="number" placeholder=" Enter valid number "> <br> <br>
+          <p id="errornumber"></p>
+           <input type="text" id="number" placeholder=" Enter valid number "> <br> <br>
 
-        <p id="errorpass"></p>
-      Enter password  <input type="text" id="pass" placeholder="Enter valid password"> <br> <br>
+          <p id="errorpass"></p>
+           <input type="text" id="pass" placeholder="Enter valid password"> <br> <br>
 
-        <p id="errorcopass"></p>
-      Enter conform password  <input type="text" id="copass" placeholder=" Enter conform password here"> <br> <br>
+          <p id="errorcopass"></p>
+           <input type="text" id="copass" placeholder=" Enter conform password "> <br> <br>
 
-      <input type="submit" value="sign-up" onclick="return signuppage()">
+           <input class="btn" type="submit" value="sign-up" onclick="return signuppage()">
 
-    </form>
+         </form>
+      </div>
+   </div>
+    
+  </div>
 
     
-    <script src="project.js"></script>
+  <script src="project.js"></script>
 </body>
 </html>
