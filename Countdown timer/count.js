@@ -12,7 +12,7 @@ function startCountdown() {
 
     if (diff <= 0) {
       clearInterval(countdownInterval);
-      document.getElementById("timer").innerHTML = "🎉 Time's up!";
+      document.getElementById("timer").innerHTML = "🎉 Time's up! Buddy";
       return;
     }
 

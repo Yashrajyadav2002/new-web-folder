@@ -7,10 +7,12 @@ body {
   height: 100vh;
 }
 
+
 .container {
   text-align: center;
-  background: white;
+  background:rgba(225,225,225,0.5);
   padding: 30px 40px;
+  border: 10px double ;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
@@ -18,12 +20,15 @@ body {
 input {
   padding: 10px;
   font-size: 16px;
+  font-weight: bolder;
   margin: 15px 0;
+  color: #07a217df;
+  border: 1px solid rgb(12, 127, 147);
 }
 
 button {
   padding: 10px 20px;
-  background-color: #4caf50;
+  background-color:red;
   color: white;
   border: none;
   font-size: 16px;
@@ -32,7 +37,8 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color:green;
+  color: blanchedalmond;
 }
 
 .timer {
