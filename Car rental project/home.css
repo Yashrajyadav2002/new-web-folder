@@ -9,7 +9,7 @@
 
 body{
     min-height: 100vh;
-    background: url('wp5716421-srt-dodge-wallpapers.jpg') no-repeat;
+    /* background: url('wp5716421-srt-dodge-wallpapers.jpg') no-repeat; */
     background-color: cover;
     background-position: center;
 }
@@ -31,7 +31,7 @@ header::before{
     left: 0;
     width: 100%;
     height: 100%;
-    background:rgba(0,0,0,0.1);
+    background:rgb(182, 29, 136);
     backdrop-filter: blur(50px);
     z-index: -1;
 }
@@ -43,18 +43,22 @@ header::after {
     left: -100%;
     width: 100%;
     height: 100%;
-    background:linear-gradient(90deg,transparent,rgba(225,225,255,0.4),transparent);
+    background:linear-gradient(90deg,transparent,rgba(147, 9, 154, 0.781),transparent);
     transition: 0.5s ;
 }
 header:hover::after {
     left: 100%;
 }
-.logo{
-    font-size: 2rem;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
+ .logoimg{
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    
 }
+ .logodiv{
+    color: #fff;
+}
+
 
 .navbar a{
     font-size: 1.15rem;
@@ -134,3 +138,14 @@ header:hover::after {
         
     }
  }
+
+
+/* 
+ !!!!!!!!!!!!!!!!!!!! main is here !!!!!!!!!!!!!!!!!! */
+
+ .img{
+    width: 100%;
+    height: 100vh;
+
+ }
+
