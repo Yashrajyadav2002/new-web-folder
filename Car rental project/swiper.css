@@ -250,7 +250,7 @@ a:hover{
     background-color: #14ff72cb;
     left: 0;
     top: 0;
-    animation: runningTime 10s linear 1 forwards;
+    animation: runningTime 6s linear 1 forwards;
 }
 
 @keyframes runningTime {
