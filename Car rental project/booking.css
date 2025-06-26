@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background: url('dasbord\ background.jpg');
+  background-size: cover;
+}
+
+
+.booking-container {
+  max-width: 500px;
+  margin-left: 1000px;
+  background:rgb(49, 52, 54);
+  background-size: cover;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+  border: 1px solid rgb(39, 159, 172);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px grey;
+}
+
+button {
+  background-color: #18ab3b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0eeb45;
+}
+
+#confirmation {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #195fbb;
+  border: 1px solid #97b02a;
+  border-radius: 5px;
+  display: none;
+}
