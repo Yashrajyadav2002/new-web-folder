@@ -6,6 +6,15 @@
     box-sizing: border-box;
     font-family: "poppins" , sans-serif;
 }
+:root {
+  --primary-color: #8a79f0;
+  --primary-color-dark: #2e2a40;
+  --text-dark: #221e36;
+  --text-light: #767268;
+  --extra-light: #f1f2ff;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
 
 body{
     min-height: 100vh;
@@ -280,25 +289,127 @@ h2{
 
 /* 
 paragraph section */
-
-
-.information-container h2{
-    margin-left: 600px;
+.subscribe__container {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  overflow: hidden;
+  background-color: var(--extra-light);
 }
 
-h2{
-    
-    margin-left: 400px;
-    margin-bottom: 50px;
-    font-size: 50px;
+.subscribe__container::before,
+.subscribe__container::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3rem;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  z-index: -1;
 }
-.loc-img img{
-    margin-left: 100px;
-    border-radius: 4px;
+
+.subscribe__container::after {
+  top: unset;
+  bottom: 0;
 }
-.paragraph p{
-    display: flex;
+
+.subscribe__content {
+  padding-block: 2rem 8rem;
+  padding-inline: 1rem;
 }
+
+.subscribe__content form {
+  margin-top: 2rem;
+  margin-inline: auto;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+
+.subscribe__content input {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: var(--text-dark);
+  padding-inline: 1rem;
+  background-color: transparent;
+}
+
+.subscribe__content .btn {
+  padding-block: 1rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.client__container {
+  padding-bottom: 1rem;
+}
+
+.client_container .section_description {
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.swiper {
+  padding-block: 4rem;
+  width: 100%;
+}
+
+.swiper-slide {
+  min-width: 375px;
+}
+
+.client__card {
+  padding: 1.5rem;
+  background-color: var(--white);
+  border-radius: 1rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+
+.client__card:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.client__details {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.client__details img {
+  max-width: 50px;
+  border-radius: 100%;
+}
+
+.client__details h4 {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.client__rating {
+  color: goldenrod;
+}
+
+.client__card p {
+  color: var(--text-light);
+  line-height: 1.5rem;
+}
+
+form{
+    border: 2px 2px 2px black;
+    border-color: #8a79f0;
+
+}
+
 
 
 

@@ -1,8 +1,19 @@
 body {
   font-family: Arial, sans-serif;
   padding: 30px;
-  background: url('dasbord\ background.jpg');
-  background-size: cover;
+  
+    background: url('dasbord\ background.jpg');
+  background-size:cover;
+  
+}
+:root {
+  --primary-color: #8a79f0;
+  --primary-color-dark: #2e2a40;
+  --text-dark: #221e36;
+  --text-light: #767268;
+  --extra-light: #f1f2ff;
+  --white: #ffffff;
+  --max-width: 1200px;
 }
 
 
@@ -58,3 +69,48 @@ button:hover {
   border-radius: 5px;
   display: none;
 }
+ 
+
+    /* section second */
+    /* .choose__container {
+  display: grid;
+}
+
+.choose__content {
+  padding-block: 2rem 5rem;
+  padding-inline: 1rem;
+}
+
+.choose__grid {
+  margin-top: 3rem;
+  display: grid;
+  gap: 2rem 1rem;
+}
+
+.choose__card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.choose__card span {
+  padding: 5px 7px;
+  font-size: 1.5rem;
+  background-color: var(--extra-light);
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+.choose__card h4 {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.choose__card p {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  line-height: 1.5rem;
+} */
+

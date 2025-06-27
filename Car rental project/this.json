@@ -1,0 +1,40 @@
+{
+  "carrent": [
+    {
+      "carType": "Sedan",
+      "pickupLocation": "Bhopal",
+      "pickupDate": "2025/06/28",
+      "returnDate": "2025/06/29",
+      "fullName": "Vijay Mandal",
+      "email": "vijaym6708@gmail.com",
+      "id": "e597"
+    },
+    {
+      "carType": "Sedan",
+      "pickupLocation": "Bhopal",
+      "pickupDate": "2025/06/28",
+      "returnDate": "2025/06/29",
+      "fullName": "Ajay Mandal",
+      "email": "vijaym6708@gmail.com",
+      "id": "d9d8"
+    },
+    {
+      "carType": "Sedan",
+      "pickupLocation": "Bhopal",
+      "pickupDate": "2025/06/28",
+      "returnDate": "2025/06/29",
+      "fullName": "Ajay Mandal",
+      "email": "vijaym6708@gmail.com",
+      "id": "e0bd"
+    },
+    {
+      "id": "25df",
+      "carType": "Hatchback",
+      "pickupLocation": "bhopal",
+      "pickupDate": "2025-06-11",
+      "returnDate": "2025-06-26",
+      "fullName": "sdggbscf",
+      "email": "ajaym6708@gmail.com"
+    }
+  ]
+}
