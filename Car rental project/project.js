@@ -91,12 +91,23 @@ return false;
 
 };
 
-let Login=()=>{
-    let inptname = document.querySelector("#loginname").value
-    let inptpass = document.querySelector("#loginpass").value
+let loginn=()=>{
+    let inputname = document.querySelector("#loginname").value
+    let inputpass = document.querySelector("#loginpass").value
 
-    location.href='homepage.html'
-    return false;
+    let loginname = localStorage.getItem("name")
+    let loginpass = localStorage.getItem("pass")
+
+    if(inputname==loginname && inputpass==loginpass){
+        location.herf="homepage.html"
+
+        return false
+    }
+    else{
+        alert("Wrong Credential")
+    }
+
+    return false
 
 };
 
