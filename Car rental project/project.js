@@ -99,7 +99,8 @@ let loginn=()=>{
     let loginpass = localStorage.getItem("pass")
 
     if(inputname==loginname && inputpass==loginpass){
-        location.herf="homepage.html"
+        alert("success")
+        location.href="homepage.html"
 
         return false
     }
