@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table border="1" align="center" cellspacing="10px" cellpaddind="10px" class="calculator">
+        <tr>
+            <th colspan="4" id="display" height="25px"></th>
+        </tr>
+        
+        <tr>
+            <td onclick="cler('')" class="operator">AC</td>
+            <td onclick="del('')" class="operator">DEL</td>
+            <td onclick="dis('%')" class="operator">%</td>
+            <td onclick="dis('/')" class="operator">/</td>
+        </tr>
+        <tr class="btn">
+            <td onclick="dis('7')">7</td>
+            <td onclick="dis('8')">8</td>
+            <td onclick="dis('9')">9</td>
+            <td onclick="dis('*')" class="operator">*</td>
+        </tr>
+        
+        <tr>
+            <td onclick="dis('4')">4</td>
+            <td onclick="dis('5')">5</td>
+            <td onclick="dis('6')">6</td>
+            <td onclick="dis('-')" class="operator">-</td>
+        </tr>
+        
+        <tr>
+            <td onclick="dis('1')">1</td>
+            <td onclick="dis('2')">2</td>
+            <td onclick="dis('3')">3</td>
+            <td onclick="dis('+')" class="operator">+</td>
+        </tr>
+        
+        <tr>
+            <td onclick="dis('00')">00</td>
+            <td onclick="dis('0')">0</td>
+            <td onclick="dis('.')">.</td>
+            <td onclick="res('')" class="but">=</td>
+        </tr>
+        
+    </table>
+
+    
+    <script src="new.js"></script>
+</body>
+</html>
