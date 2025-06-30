@@ -1,0 +1,12 @@
+#searchpage{
+    display: flex;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.head{
+    background-color: gold;
+
+}

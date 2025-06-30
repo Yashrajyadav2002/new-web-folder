@@ -104,7 +104,7 @@ let ins=()=>{
     })
 
 
-    location.href="index.html"
+    location.href="orderpage.html"
     return false
 
 };

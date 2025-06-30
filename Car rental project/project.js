@@ -85,20 +85,20 @@ localStorage.setItem("email",email)
 localStorage.setItem("num",num)
 localStorage.setItem("pass",pass)
 
-location.href='login.html'
+location.href='login.html';
 
 return false;
 
 };
 
 let loginn=()=>{
-    let inputname = document.querySelector("#loginname").value
-    let inputpass = document.querySelector("#loginpass").value
+    let inptname = document.querySelector("#loginname").value
+    let inptpass = document.querySelector("#loginpass").value
 
     let loginname = localStorage.getItem("name")
     let loginpass = localStorage.getItem("pass")
 
-    if(inputname==loginname && inputpass==loginpass){
+    if(inptname==loginname && inptpass==loginpass){
         alert("success")
         location.href="homepage.html"
 

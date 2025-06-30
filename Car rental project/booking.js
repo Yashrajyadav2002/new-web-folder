@@ -21,4 +21,3 @@ document.getElementById('bookingForm').addEventListener('submit', function (e) {
 });
 
 
-// --------------- My Work --------------
