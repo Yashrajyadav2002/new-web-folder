@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.calander{
+    width: 380px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px rgb(29, 28, 28);
+    background-color: azure;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.header button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+
+}
+.days{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.day{
+    text-align: center;
+    padding: 5px;
+    color: #999fa5;
+    font-weight: 500;
+}
+.dates{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap:5px;
+}
