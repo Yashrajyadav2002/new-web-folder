@@ -1,0 +1,112 @@
+/* Google font optional: uncomment if needed
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*/
+
+* { box-sizing: border-box; }
+
+body {
+  /* font-family: 'Poppins', Arial, sans-serif; */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.app {
+  width: 100%;
+  padding: 24px;
+}
+
+.card {
+  max-width: 420px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 28px 24px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+h2 {
+  margin: 0 0 8px;
+  color: #2b2b2b;
+}
+
+p {
+  margin: 8px 0;
+  color: #444;
+}
+
+.controls {
+  margin: 16px 0 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+input[type="number"] {
+  width: 140px;
+  padding: 10px 12px;
+  border: 2px solid #764ba2;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: transform 0.08s ease, box-shadow 0.2s ease;
+}
+
+input[type="number"]:focus {
+  box-shadow: 0 0 0 4px rgba(118, 75, 162, 0.15);
+  transform: translateY(-1px);
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #667eea;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.08s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  background: #5a6fe4;
+  box-shadow: 0 8px 18px rgba(90, 111, 228, 0.35);
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+button.ghost {
+  background: transparent;
+  color: #5a39a8;
+  border: 2px solid #764ba2;
+}
+
+button.ghost:hover {
+  background: #f2e9ff;
+}
+
+#message {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.success { color: #1aa853; }
+.error   { color: #d7263d; }
+.hint    { color: #2f76ff; }
+
+#attempts {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #666;
+}
