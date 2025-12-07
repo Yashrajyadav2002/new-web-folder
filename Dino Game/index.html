@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>SiteDino — Advanced Dino Runner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <div class="left">
+      <div id="score">Score: <span id="scoreVal">0</span></div>
+      <div id="highscore">High: <span id="highVal">0</span></div>
+    </div>
+    <div class="center">
+      <div id="title">SiteDino</div>
+    </div>
+    <div class="right">
+      <button id="btnPause">Pause</button>
+      <button id="btnRestart">Restart</button>
+    </div>
+  </div>
+
+  <div id="canvasWrap">
+    <canvas id="game"></canvas>
+
+    <div id="overlayControls" class="controls">
+      <button id="jumpBtn" class="control">Jump</button>
+      <button id="duckBtn" class="control">Duck</button>
+    </div>
+
+    <div id="message" class="message hidden">
+      <div id="messageText"></div>
+      <div class="messageButtons">
+        <button id="playBtn">Play</button>
+        <button id="shareBtn">Share Score</button>
+      </div>
+    </div>
+  </div>
+
+  <footer id="credits">Use ↑ / Space to Jump, ↓ to Duck. Touch buttons on mobile.</footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
